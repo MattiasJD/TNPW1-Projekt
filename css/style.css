@@ -1,0 +1,135 @@
+*{
+    background-color: #212121;
+    color: #E0E0E0;
+    text-decoration: none;
+    font-family: "Oswald Regular", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+nav{
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul{
+
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+}
+nav li{
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    font-size: 32px;
+    text-decoration: none;
+
+    font-family: "Oswald Regular", sans-serif;
+}
+nav a:hover{
+    color: #5C5470;
+    transition: all 600ms ease;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    -webkit-user-drag: none;
+}
+.selected{
+    text-decoration: underline;
+}
+.selected a:hover{
+    transition: none;
+    color: #5C5470;
+}
+
+
+
+
+
+.content{
+    background-color: #424242;
+    min-height: 80vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.text-field{
+    background-color: red;
+    width: 60vw;
+    margin: 40px;
+}
+.img-field{
+    background-color: blue;
+    width: 25vw;
+    height: 30vh;
+    margin: 40px;
+}
+.images{
+    display: grid;
+    background-color: #424242;
+    grid-template-areas:
+    'img-field img-field img-field';
+    gap: 10px;
+}
+.motorcycles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #424242;
+}
+
+.motorcycle{
+    border: 5px black;
+    text-align: center;
+}
+.motorcycles img{
+    width: 100%;
+    aspect-ratio: 4/3
+}
+.map-text{
+    display: grid;
+    grid-template-areas:
+    'map text-field';
+    gap: 10px;
+    background-color: #424242;
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 60%;
+    justify-content: center;
+}
+footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 20px;
+}
