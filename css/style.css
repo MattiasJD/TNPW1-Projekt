@@ -1,6 +1,5 @@
 * {
-    background-color: #212121;
-    color: #E0E0E0;
+    color: antiquewhite;
     text-decoration: none;
     font-family: "Oswald Regular", sans-serif;
     padding: 0;
@@ -72,30 +71,30 @@ footer {
     transition: none;
     color: #5C5470;
 }
-
+header{
+    background-color: #121212;
+}
 
 
 
 
 .content{
-    background-color: #424242;
+    background-color: #3f3f3f;
     min-height: 80vh;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 .text-field{
-    background-color: red;
     width: 60vw;
     margin: 40px;
 }
 .img-field{
-    background-color: blue;
     margin: 40px;
 }
 .images{
     display: grid;
-    background-color: #424242;
+    background-color: #282828;
     grid-template-areas:
     'img-field img-field img-field';
     gap: 10px;
@@ -103,13 +102,14 @@ footer {
 .motorcycles{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    background-color: #424242;
+    gap: 5vh;
+    margin: 2vw;
 }
 
 .motorcycle{
-    border: 5px black;
+    border: 5px #121212 solid;
     text-align: center;
+    background-color: #282828;
 }
 .motorcycles img{
     width: 100%;
@@ -120,20 +120,22 @@ footer {
     grid-template-areas:
     'map text-field';
     gap: 10px;
-    background-color: #424242;
+    background-color: #3f3f3f;
+    padding: 3vw;
 }
 .grid-footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 60%;
     justify-content: center;
+    margin-bottom: 1vw;
 }
 footer{
+    background-color: #121212;
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    font-size: 20px;
+    padding: 2vw;
 }
 
 img {
@@ -162,12 +164,12 @@ tr:nth-child(even) {
 }
 
 .servis_img{
-    ;
+    padding-top: 4vh;
 }
 form {
+    background-color: #212121;
     max-width: 400px;
     margin: 0 auto;
-    background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -185,6 +187,7 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    color: black;
 }
 
 button {
